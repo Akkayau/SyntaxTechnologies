@@ -22,8 +22,6 @@ public class MethodsRecap {
 	
 	public static void main(String[] args) {
 		
-		
-		
 		MethodsRecap obj=new MethodsRecap();
 		
 		int[] arr= {10,20,38,12};
