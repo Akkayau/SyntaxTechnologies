@@ -9,15 +9,15 @@ public class ConstructorsDemo {
 		System.out.println("I am non argument constructor");
 	}
 	
-	ConstructorsDemo(String str){
+	public ConstructorsDemo(String str){
 		System.out.println("I am a contructor with 1 String parameter "+str);
 	}
 	
-	ConstructorsDemo(int num){
+	protected ConstructorsDemo(int num){
 		System.out.println("I am a contructor with 1 integer value="+num);
 	}
 	
-	ConstructorsDemo (String str, int num){
+	private ConstructorsDemo (String str, int num){
 		System.out.println("I am a contructor with 2 parameters:"+str+"&"+num);
 	}
 	
