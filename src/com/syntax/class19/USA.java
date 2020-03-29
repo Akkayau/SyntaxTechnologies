@@ -21,12 +21,15 @@ public class USA {
 	//can I call a method inside another method? --> YES
 	public void displayInfo() {
 		//this.displayState();
-		displayState();//by default constructor add this keyword to a method
+		displayState();//by default compiler add this keyword to a method
 		displayStateCapital();
 	}
 	
 	public static void main(String[] args) {
 		USA state1=new USA("Texas", "Austin");
+		state1.displayInfo();
+		
+		state1=new USA("Georgia", "Atlanta");
 		state1.displayInfo();
 	}
 	
