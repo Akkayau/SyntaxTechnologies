@@ -11,8 +11,11 @@ public class JavaTeacher extends Teacher{
 	String certifications;
 	
 	JavaTeacher(String name, String lastName, String certification){
-		super(name, lastName);
+
+		super(name, lastName);//super always must be first line inside your constructor
+		
 		this.certifications=certification;
+		
 	}
 	
 	JavaTeacher(String name, String lastName){
