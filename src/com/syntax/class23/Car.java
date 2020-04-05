@@ -25,6 +25,10 @@ class BMW extends Car {
 	public void start() {
 		System.out.println(make +" starts by pushing button");
 	}
+	
+	public void navigate() {
+		System.out.println(make+" has navigation system");
+	}
 }
 
 class Mercedes extends Car{
@@ -34,6 +38,10 @@ class Mercedes extends Car{
 	
 	public void start() {
 		System.out.println(make+" starts remotely");
+	}
+	
+	public void prettyLight() {
+		System.out.println(make+" has pretty interior lights");
 	}
 }
 
