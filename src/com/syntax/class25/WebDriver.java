@@ -1,4 +1,7 @@
 package com.syntax.class25;
+interface Smth{
+	
+}
 
 interface TakesScreenshot{
 	
@@ -16,7 +19,7 @@ interface TakesScreenshot{
 	}
 }
 
-public interface WebDriver {
+public interface WebDriver extends TakesScreenshot, Smth{
 	
 	void openBrowser();
 
@@ -27,7 +30,7 @@ public interface WebDriver {
 	void findElement();
 }
 
-class ChromeDriver implements WebDriver, TakesScreenshot {
+class ChromeDriver implements WebDriver {
 	@Override
 	public void openBrowser() {
 		System.out.println("We can open Chrome");
@@ -80,6 +83,12 @@ class FireFoxDriver implements WebDriver {
 	public void findElement() {
 		System.out.println("We can find elements in FireFox");
 
+	}
+
+	@Override
+	public void takePicture() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
