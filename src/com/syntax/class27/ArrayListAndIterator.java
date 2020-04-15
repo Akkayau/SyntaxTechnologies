@@ -29,8 +29,13 @@ public class ArrayListAndIterator {
 		//iterates in 1 direction
 		while(it.hasNext()) {
 			String element=it.next();
-			System.out.println(element);
+			if(element.equals("ice cream")) {
+				it.remove();
+			}
 		}
+		
+		System.out.println(" Arraylist after removing element ");
+		System.out.println(sweets);
 		
 		//I want to get elements backwards
 		for(int i=sweets.size()-1; i>=0; i--) {
