@@ -48,5 +48,6 @@ public class Questions {
 		//collections is a utility class that have methods to work with collections
 		Collections.sort(list);
 		System.out.println(list);
+		
 	}
 }
