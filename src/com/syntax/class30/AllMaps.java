@@ -53,6 +53,5 @@ public class AllMaps {
 		while(iterator.hasNext()) {
 			System.out.println("value = "+iterator.next());
 		}
-		//break till 11:50
 	}
 }
