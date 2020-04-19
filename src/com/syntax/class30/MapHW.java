@@ -21,6 +21,9 @@ public class MapHW {
 		building.put(6, "Microsoft");
 		building.put(7, "Oracle");
 		
+		String element=building.get(2);
+		System.out.println(element+"-----------------------");
+		
 		System.out.println(building.size());
 		System.out.println(building);
 		
