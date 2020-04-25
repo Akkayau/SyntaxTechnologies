@@ -22,7 +22,6 @@ public class WriteToPropertiesFile {
 		
 		FileOutputStream fos=new FileOutputStream(filePath);
 		prop.store(fos, "Added additonal key");
-		
-
+	
 	}
 }
