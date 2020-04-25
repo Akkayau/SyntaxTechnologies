@@ -63,7 +63,6 @@ public class MapRecap {
 		
 		//second part of the code
 		createMap("City", "Washington DC");
-		
 	}
 	
 	public static Map<String, String> createMap(String key, String value) {
