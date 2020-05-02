@@ -19,7 +19,7 @@ public class ProcessDataFromXL {
 		FileInputStream fis = new FileInputStream(file);
 
 		Workbook book = new XSSFWorkbook(fis);
-		Sheet sheet = book.getSheet("TestData");
+		Sheet sheet = book.getSheet("TestData");//null
 
 		int rows = sheet.getPhysicalNumberOfRows();
 		int cols = sheet.getRow(0).getLastCellNum();
