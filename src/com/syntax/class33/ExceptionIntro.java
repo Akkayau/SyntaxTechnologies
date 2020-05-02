@@ -21,7 +21,7 @@ public class ExceptionIntro {
 		
 		//System.out.println(str.length());--> NullPointerException
 		
-//		NullPointerException npe=new NullPointerException();
+		NullPointerException npe=new NullPointerException();
 //		throw(npe);
 		
 		Thread.sleep(2000);
