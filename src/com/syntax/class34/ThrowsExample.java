@@ -2,6 +2,7 @@ package com.syntax.class34;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class ThrowsExample {
 
@@ -16,14 +17,11 @@ public class ThrowsExample {
 		}
 		
 		System.out.println("--- END OF THE CODE ----");
-		
-		
 	}
 
 	public static void read(String filePath) throws FileNotFoundException {
 		FileInputStream fis=new FileInputStream(filePath);// new FileNotFoundException();
 	}
-	
 	
 	public static void multipleSleep() {
 		try {
